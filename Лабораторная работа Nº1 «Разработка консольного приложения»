@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cmath>
+#include <algorithm>
+using namespace std;
+
+int main() {
+  float x, y;
+  cin >> x >> y;
+  float r, s;
+  r = (-x - sqrt(exp(2) - 4 * x * y)) / (2 * x);
+  s = log(x) * tan(y);
+  cout << r << endl;
+  cout << s << endl;
+  cout << max(r, s);
+  cin.get();
+  return 0;
+}

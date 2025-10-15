@@ -5,7 +5,7 @@ int main() {
     int windowSize = 500;
     float cellSize = windowSize / float(n);
 
-    sf::RenderWindow window(sf::VideoMode(windowSize, windowSize), "Green Bars 10x10");
+    sf::RenderWindow window(sf::VideoMode(windowSize, windowSize), "stolbiki");
     window.clear(sf::Color::White);
 
     sf::RectangleShape line;

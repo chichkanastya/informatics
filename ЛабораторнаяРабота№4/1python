@@ -1,0 +1,7 @@
+def getIntervalValue(a):
+    a = list(map(int, a.split()))
+    print(f'Массив А: {a}')
+    print(f'Массив В: {[i for i in a if 10 <= i <= 50]}')
+
+a = input('Ведите 10 элементов массива A: ')
+getIntervalValue(a)

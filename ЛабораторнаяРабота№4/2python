@@ -1,0 +1,8 @@
+
+def sumIntersection(a, b):
+    a = set(map(int, a.split()))
+    b = set(map(int, b.split()))
+    print(f'Сумма пересечения элементов: {sum(a&b)}')
+a = input('Введите элементы множества А: ')
+b = input('Введите элементы множества B: ')
+sumIntersection(a,b)

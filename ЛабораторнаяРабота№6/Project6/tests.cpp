@@ -38,7 +38,7 @@ namespace MyTests
 
             auto func = [&] { Calculate(x, y, S, R, C); };
 
-            Assert::ExpectException<std::invalid_argument>(func, L"x äîëæåí áûòü > 0");
+            Assert::ExpectException<std::invalid_argument>(func, L"x Ã¤Ã®Ã«Ã¦Ã¥Ã­ Ã¡Ã»Ã²Ã¼ > 0");
         }
 
         TEST_METHOD(TestNegativeX) {

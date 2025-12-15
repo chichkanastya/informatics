@@ -1,0 +1,5 @@
+﻿  console.cpp
+  Tests.cpp
+  Создание кода...
+C:\Users\chich\Downloads\inf_lab_6-main\inf_lab_6-main\Project6\console.cpp(2,10): error C1083: Не удается открыть файл включение: logiс.h: No such file or directory,
+C:\Users\chich\Downloads\inf_lab_6-main\inf_lab_6-main\Project6\Tests.cpp(1,10): error C1083: Не удается открыть файл включение: pch.h: No such file or directory,

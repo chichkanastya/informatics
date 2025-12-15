@@ -1,6 +1,6 @@
 #include "pch.h"
 #include "CppUnitTest.h"
-#include "C:\Users\Admin\Desktop\1\Project6\Project6\logic.h"
+#include "logic.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 using namespace std;
